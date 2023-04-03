@@ -19,5 +19,29 @@
     padding-left: 5px;
 }
 /*Fine delle classi ed id dell' header*/
+/*Inizio delle classi e id dell' main*/
+#testo_gray{
+    color: lightgray;
+}
+#data{
+    color: lightgrey;
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+#testo_blu{
+    color: rgb(99, 195, 255)
+}
+#testo_photo{
+    font-size: 10px;
+    padding-bottom: 20px;
 
+}
+/*Inizio classi ed id del paragrafo*/
+.contenitore_paragrafo1{
+    margin-bottom: 20px;
+}
+.testo_evidenziato{
+    background-color: yellow;
+}
+/*Fine classi ed id del paragrafo*/
 
