@@ -1,8 +1,8 @@
 *{
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
  }
+ 
  /* Inizio classi ed id dell' header*/
 
 .contenitore_header{
@@ -19,6 +19,7 @@
     padding-left: 5px;
 }
 /*Fine delle classi ed id dell' header*/
+
 /*Inizio delle classi e id dell' main*/
 #testo_gray{
     color: lightgray;
@@ -44,4 +45,54 @@
     background-color: yellow;
 }
 /*Fine classi ed id del paragrafo*/
+
+/*inizio classi ed id della lista*/
+.container_lista{
+    
+    padding-bottom: 20px;
+}
+ul{
+    padding-left: px;
+}
+/*Fine classi ed id della lista*/
+
+/*Inizio classi ed id della table*/
+.container_table{
+    padding-bottom: 20px;
+}
+table{
+    border-collapse: collapse;
+    
+}
+.Prima_riga{
+    width: 16%;
+    text-align: initial;
+       
+}
+.Seconda_riga{
+    width: 16%;
+    text-align: initial;
+    
+}
+.Terza_riga{
+    width: 50%;
+    text-align: initial;
+    
+    
+       
+}
+
+.Colore_riga{
+    background-color: rgba(120, 230, 226, 0.673);
+    
+
+}
+thead{
+    color: white;
+    background-color: rgb(0, 145, 255);
+}
+/*Fine classi ed id della table*/
+
+
+
 
