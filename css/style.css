@@ -1,4 +1,5 @@
 *{
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
  }
@@ -48,11 +49,10 @@
 
 /*inizio classi ed id della lista*/
 .container_lista{
-    
     padding-bottom: 20px;
 }
 ul{
-    padding-left: px;
+    padding-left: 20px;
 }
 /*Fine classi ed id della lista*/
 
@@ -100,11 +100,33 @@ thead{
 /*Fine classi ed id del secondo paragrafo*/
 
 /*Inizio classi ed id del footer*/
-
 #testo{
     color: gray;
     padding-bottom: 10px;
 }
+#immagine_1{
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    padding-bottom: 220px;
+    
+    
+}
+#immagine_2{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    padding-bottom: 250px;    
+}
+.testo_img{
+    color: white;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+/*Fine classi ed id del footer*/
+
 
 
 
