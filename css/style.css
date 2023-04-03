@@ -93,6 +93,20 @@ thead{
 }
 /*Fine classi ed id della table*/
 
+/*Inizio classi ed id del secondo paragrafo*/
+.contenitore_paragrafo2{
+    padding-bottom: 40px;
+}
+/*Fine classi ed id del secondo paragrafo*/
+
+/*Inizio classi ed id del footer*/
+
+#testo{
+    color: gray;
+    padding-bottom: 10px;
+}
+
+
 
 
 
