@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
  }
+ #bonus{
+    text-align: center;
+ }
  
  /* Inizio classi ed id dell' header*/
 
@@ -22,6 +25,12 @@
 /*Fine delle classi ed id dell' header*/
 
 /*Inizio delle classi e id dell' main*/
+.contenitore_main{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
 #testo_gray{
     color: lightgray;
 }
@@ -49,7 +58,7 @@
 
 /*inizio classi ed id della lista*/
 .container_lista{
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 ul{
     padding-left: 20px;
@@ -58,30 +67,25 @@ ul{
 
 /*Inizio classi ed id della table*/
 .container_table{
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 table{
     border-collapse: collapse;
     
 }
 .Prima_riga{
-    width: 16%;
     text-align: initial;
        
 }
-.Seconda_riga{
-    width: 16%;
+.Seconda_riga{   
     text-align: initial;
     
 }
 .Terza_riga{
     width: 50%;
     text-align: initial;
-    
-    
-       
+           
 }
-
 .Colore_riga{
     background-color: rgba(120, 230, 226, 0.673);
     
@@ -109,7 +113,7 @@ thead{
     background-repeat: no-repeat;
     width: 300px;
     height: 200px;
-    padding-bottom: 220px;
+    margin-bottom: 10px;
     
     
 }
@@ -118,12 +122,16 @@ thead{
     background-repeat: no-repeat;
     width: 300px;
     height: 200px;
-    padding-bottom: 250px;    
+    margin-bottom: 50px;    
 }
 .testo_img{
     color: white;
     padding-top: 15px;
     padding-left: 25px;
+}
+.container_footer{
+    width: 80%;
+    margin: 0 auto;
 }
 /*Fine classi ed id del footer*/
 
